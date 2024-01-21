@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){document.querySelector("header h1").addEventListener("click",function(){alert("¡Has hecho clic en el encabezado!")}),document.querySelectorAll("section").forEach(function(e){e.addEventListener("mouseover",function(){this.style.backgroundColor="#e0e0e0"}),e.addEventListener("mouseout",function(){this.style.backgroundColor="#fff"})})});
+//# sourceMappingURL=index.caee4ad8.js.map
