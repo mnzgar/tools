@@ -1,0 +1,30 @@
+@mixin border-container {
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+header {
+  @include border-container;
+  background-color: #f2f2f2;
+}
+
+nav {
+  @include border-container;
+}
+
+section {
+  @include border-container;
+  background-color: #fff;
+}
+
+footer {
+  @include border-container;
+  background-color: #f2f2f2;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+
+
